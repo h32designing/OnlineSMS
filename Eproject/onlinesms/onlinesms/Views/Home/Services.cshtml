@@ -1,0 +1,225 @@
+﻿
+@{
+    ViewBag.Title = "Services";
+}
+<!-- =============Hero Area============= -->
+<section class="hero-area bg_img" data-background="/assets/images/page-header.jpg">
+    <div class="container">
+        <h1 class="title m-0">SMS Services</h1>
+    </div>
+</section>
+<div class="breadcrumb-section">
+    <div class="container">
+        <ul class="breadcrumb">
+            <li>
+                <a href="@Url.Action("Index","Home")">Home</a>
+            </li>
+            <li>
+                Services
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- =============Hero Area============= -->
+<!--=================Our Service================= -->
+<section class="service-section padding-bottom padding-top">
+    <div class="container">
+        <div class="row justify-content-center mb-30-none">
+            <div class="col-md-6 col-lg-6">
+                <div class="service-item text-center">
+                    <div class="service-thumb">
+                        <i class="flaticon-love"></i>
+                    </div>
+                    <div class="service-content">
+                        <h4 class="title"><a href="@Url.Action("masksms","Home")">Mask SMS</a></h4>
+                        <p>It is a service that your customer will see your brand name as the sender ID.</p>
+                        <a href="@Url.Action("masksms","Home")">Find Out More <i class="fas fa-caret-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6">
+                <div class="service-item text-center">
+                    <div class="service-thumb">
+                        <i class="flaticon-sms"></i>
+                    </div>
+                    <div class="service-content">
+                        <h4 class="title"><a href="@Url.Action("nonmasksms","Home")">not Masking SMS</a></h4>
+                        <p>Non-masking sms are cheap, affordable, easy to use and simple to deliver. </p>
+                        <a href="@Url.Action("nonmasksms","Home")">Find Out More <i class="fas fa-caret-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            @*<div class="col-md-6 col-lg-4">
+                    <div class="service-item text-center">
+                        <div class="service-thumb">
+                            <i class="flaticon-mic"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4 class="title"><a href="@Url.Action("Voice","Home")">voice message</a></h4>
+                            <p>Voice SMS allows to sends message with multiple languages for all mobile phone.</p>
+                            <a href="@Url.Action("Voice","Home")">Find Out More <i class="fas fa-caret-right"></i></a>
+                        </div>
+                    </div>
+                </div>*@
+            <div class="col-md-6 col-lg-6">
+                <div class="service-item text-center">
+                    <div class="service-thumb">
+                        <i class="flaticon-route"></i>
+                    </div>
+                    <div class="service-content">
+                        <h4 class="title"><a href="@Url.Action("locationbased","Home")">location based SMS</a></h4>
+                        <p>SMS allows mobile networks to customise messages for an affected region. </p>
+                        <a href="@Url.Action("locationbased","Home")">Find Out More <i class="fas fa-caret-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6">
+                <div class="service-item text-center">
+                    <div class="service-thumb">
+                        <i class="flaticon-megaphone"></i>
+                    </div>
+                    <div class="service-content">
+                        <h4 class="title"><a href="@Url.Action("Promosms","Home")">promo SMS</a></h4>
+                        <p> when a business sends their customers unique SMS for marketing purposes. </p>
+                        <a href="@Url.Action("Promosms","Home")">Find Out More <i class="fas fa-caret-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            @*<div class="col-md-6 col-lg-4">
+                    <div class="service-item text-center">
+                        <div class="service-thumb">
+                            <i class="flaticon-paper-plane"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4 class="title"><a href="@Url.Action("EmailService","Home")">Email Service</a></h4>
+                            <p>Email to SMS is an API that works by accepting emails sent to a specific address. </p>
+                            <a href="@Url.Action("EmailService","Home")">Find Out More <i class="fas fa-caret-right"></i></a>
+                        </div>
+                    </div>
+                </div>*@
+        </div>
+    </div>
+</section>
+<!--=================Our Service================= -->
+<!--=================Price Plan================= -->
+<section class="price-section padding-bottom">
+    <div class="container">
+        <div class="section-header">
+            <span class="cate">pricing plan</span>
+            <h2 class="title">bulk SMS price plan</h2>
+        </div>
+        <div class="row mb-30-none justify-content-center">
+            <div class="col-md-6 col-lg-4">
+                <div class="price-item">
+                    <div class="price-header">
+                        <span class="category">masking SMS</span>
+                        <h3 class="sub-title">0.33$<span>sms</span></h3>
+                    </div>
+                    <ul>
+                        <li>
+                            <span>validity</span>06 Month
+                        </li>
+                        <li>
+                            <span>quantity</span>600 SMS
+                        </li>
+                        <li>
+                            <span>discount</span>05%
+                        </li>
+                        <li>
+                            <span>24/7</span>yes
+                        </li>
+                        <li>
+                            <span>worldwide access</span>yes
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="price-item">
+                    <div class="price-header">
+                        <span class="category">non-masking SMS</span>
+                        <h3 class="sub-title">0.23$<span>sms</span></h3>
+                    </div>
+                    <ul>
+                        <li>
+                            <span>validity</span>06 Month
+                        </li>
+                        <li>
+                            <span>quantity</span>600 SMS
+                        </li>
+                        <li>
+                            <span>discount</span>05%
+                        </li>
+                        <li>
+                            <span>24/7</span>yes
+                        </li>
+                        <li>
+                            <span>worldwide access</span>yes
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="price-item">
+                    <div class="price-header">
+                        <span class="category">voice message</span>
+                        <h3 class="sub-title">0.40$<span>sms</span></h3>
+                    </div>
+                    <ul>
+                        <li>
+                            <span>validity</span>06 Month
+                        </li>
+                        <li>
+                            <span>quantity</span>600 SMS
+                        </li>
+                        <li>
+                            <span>discount</span>05%
+                        </li>
+                        <li>
+                            <span>24/7</span>yes
+                        </li>
+                        <li>
+                            <span>worldwide access</span>yes
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--=================Price Plan================= -->
+<!--=================Our Offer================= -->
+<section class="offer-section bg-ash padding-top padding-bottom">
+    <div class="container">
+        <div class="section-header">
+            <span class="cate">our offer</span>
+            <h2 class="title">what we offer</h2>
+        </div>
+    </div>
+    <div class="container mw-lg-100">
+        <div class="row align-items-center flex-wrap-reverse">
+            <div class="col-lg-6">
+                <div class="left-side-offer">
+                    <h4 class="title">get our best offer for your better business</h4>
+                    <p>
+                        Our aim is to leverage the impact of meaningful companies by providing the best performance-based customer acquisition solution on the market, powered by Online SMS
+                    </p>
+                    <ul>
+                        <li>Based on our data pool with millions of historical user signals.</li>
+                        <li>Algorithms identify and capture high-value users for a product on a massive scale.</li>
+                        <li> Our system recommends a personalized list of relevant product options to the user in real time. </li>
+                    </ul>
+                    <p>
+                        The user compares the different options and then makes a purchasing decision based on user reviews and comparison data.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="right-side-offer">
+                    <img src="~/assets/images/offer/offer01.png" alt="offer">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--=================Our Offer================= -->

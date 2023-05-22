@@ -1,0 +1,156 @@
+﻿@model onlinesms.Models.user
+-
+@{
+	ViewBag.Title = "Signup";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!-- =============Hero Area============= -->
+<section class="hero-area bg_img" data-background="/assets/images/page-header.jpg">
+	<div class="container">
+		<h1 class="title m-0">my account</h1>
+	</div>
+</section>
+<div class="breadcrumb-section">
+	<div class="container">
+		<ul class="breadcrumb">
+			<li>
+				<a href="@Url.Action("Index","Home")">Home</a>
+			</li>
+			<li>
+				sign-up
+			</li>
+		</ul>
+	</div>
+</div>
+<!-- =============Hero Area============= -->
+
+@using (Html.BeginForm())
+{
+	@Html.AntiForgeryToken()
+
+	<!--=================Account Section================= -->
+	<section class="account-section padding-top padding-bottom bg_img bg_xxl_contain bg_right_bottom"
+			 data-background="/assets/images/account/account-bg.png">
+		<div class="container">
+			<div class="account-wrapper">
+				<div class="account-area">
+					<h3 class="account-title">create new account</h3>
+                    <form class="sign-up-form">
+                        <div class="form-group">
+                            @*<input type="text" class="input" placeholder="First Name">*@
+                            @Html.EditorFor(model => model.u_name, new { htmlAttributes = new { @class = "input", @placeholder = "First Name" } })
+                            @Html.ValidationMessageFor(model => model.u_name, "", new { @class = "text-danger" })
+                        </div>
+                        <div class="form-group">
+                            @*<input type="text" class="input" placeholder="Last Name">*@
+                            @Html.EditorFor(model => model.u_phone, new { htmlAttributes = new { @class = "input", @placeholder = "Phone No" } })
+                            @Html.ValidationMessageFor(model => model.u_phone, "", new { @class = "text-danger" })
+                        </div>
+                        <div class="form-group">
+                            @*<input type="text" class="input" placeholder="Email or Phone">*@
+                            @Html.EditorFor(model => model.u_email, new { htmlAttributes = new { @class = "input", @placeholder = "Email or Phone" } })
+                            @Html.ValidationMessageFor(model => model.u_email, "", new { @class = "text-danger" })
+                        </div>
+                        <div class="form-group">
+                            @Html.EditorFor(model => model.u_address, new { htmlAttributes = new { @class = "input", @placeholder = "Address" } })
+                            @Html.ValidationMessageFor(model => model.u_address, "", new { @class = "text-danger" })
+                        </div>
+
+                        <div class="form-group">
+                            @Html.EditorFor(model => model.login_id, new { htmlAttributes = new { @class = "input", @placeholder = "Username or Email" } })
+                            @Html.ValidationMessageFor(model => model.login_id, "", new { @class = "text-danger" })
+                        </div>
+                       <div class="form-group">
+							@Html.TextBoxFor(model => model.userrole_id, new{ @Value = "2", @readonly = "readonly", @class = "form-control"})
+                            @Html.ValidationMessageFor(model => model.userrole_id, "", new { @class = "text-danger" })
+                        </div>
+
+                        <div class="form-group">
+                            @*<input type="password" class="input" placeholder="Password" id="my-input-02">*@
+                            @Html.EditorFor(model => model.login_pass, new { htmlAttributes = new { @id = "my-input-02", @class = "input", @placeholder = "Password" } })
+                            @Html.ValidationMessageFor(model => model.login_pass, "", new { @class = "text-danger" })
+                            <span class="view-pass" id="view-pass-02">
+                                <i class="flaticon-eye"></i>
+                            </span>
+                        </div>
+                        <!--div class="form-group">-->
+                            @*<input type="password" class="input" placeholder="Password" id="my-input-02">*@
+                            @*@Html.EditorFor(model => model.confirmpass, new { htmlAttributes = new { @id = "my-input-02", @class = "input", @placeholder = "Confirm Password" } })*@
+                            @*@Html.ValidationMessageFor(model => model.confirmpass, "", new { @class = "text-danger" })*@
+                            <!--<span class="view-pass" id="view-pass-01">
+                                <i class="flaticon-eye"></i>
+                            </span>
+                        </div>-->
+                        <div class="form-group w-100 checkgroup">
+                            <input type="checkbox" class="input" checked id="ckeck-notify">
+                            <label for="ckeck-notify">i wish to recieve all update</label>
+                        </div>
+                        <div class="form-group w-100">
+                            <input type="submit" value="Create Account">
+                        </div>
+                    </form>
+					<div class="forget-pass-group text-center m-0 mt-md-3">
+						<p>Already have an Account? <a href="@Url.Action("Signin","Home")">Sign-In</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--=================Account Section================= -->
+}
+
+<!--=================Sponsor Section================= -->
+<div class="sponsor-section padding-top padding-bottom">
+	<div class="container">
+		<div class="sponsor-slider">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div class="sponsor-thumb">
+						<img src="~/assets/images/sponsor/sponsor01.png" alt="sponsor">
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="sponsor-thumb">
+						<img src="~/assets/images/sponsor/sponsor02.png" alt="sponsor">
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="sponsor-thumb">
+						<img src="~/assets/images/sponsor/sponsor03.png" alt="sponsor">
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="sponsor-thumb">
+						<img src="~/assets/images/sponsor/sponsor04.png" alt="sponsor">
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="sponsor-thumb">
+						<img src="~/assets/images/sponsor/sponsor05.png" alt="sponsor">
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="sponsor-thumb">
+						<img src="~/assets/images/sponsor/sponsor06.png" alt="sponsor">
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="sponsor-thumb">
+						<img src="~/assets/images/sponsor/sponsor07.png" alt="sponsor">
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="sponsor-thumb">
+						<img src="~/assets/images/sponsor/sponsor08.png" alt="sponsor">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--=================Sponsor Section================= -->
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+

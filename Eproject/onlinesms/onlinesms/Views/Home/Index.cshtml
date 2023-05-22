@@ -1,0 +1,315 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+
+
+<!-- =============Banner Section============= -->
+<section class="banner-section">
+    <div class="container">
+        <div class="banner-content  wow fadeInUp" data-wow-delay=".3s">
+            <span class="category">
+                Build a better customer experience
+            </span>
+            <h1 class="title">reach more customers with faster, more reliable SMS messaging</h1>
+            <div class="video-button-group">
+
+                @if (Session["userId"] != null)
+                {
+                    <a href="@Url.Action("UserDashboard","Home")" class="custom-button active">Send Message</a>
+
+                }
+                else
+                {
+                    <a href="@Url.Action("Signin","Home")" class="custom-button active">Send Message</a>
+                }
+                <!--<div class="v-button">-->
+                    <!-- <span>watch video</span> -->
+                    <!--<a data-rel="lightcase:myCollection" href="https://www.youtube.com/embed/GT6-H4BRyqQ" class="video-button"><i class="flaticon-play-button"></i></a>
+                </div>-->
+            </div>
+            @*<div class="round-shape">*@
+            </div>
+        </div>
+    @*</div>*@
+    <div class="maps-shape bg_img bg-contain" data-background="/assets/images/banner/banner-bg01.png"></div>
+    <div class="shape-thumb">
+        <img class="wow slideInUp" data-wow-delay=".7s" src="~/assets/images/banner/banner-shape01.png" alt="banner">
+    </div>
+</section>
+<!-- =============Banner Section============= -->
+<!--=================Chooose Us================= -->
+<section class="choose-us-section padding-top padding-bottom">
+    <div class="container">
+        <div class="section-header wow fadeInUp">
+            <span class="cate">our feature</span>
+            <h2 class="title">why choose us</h2>
+        </div>
+        <div class="row mb-30-none justify-content-center">
+            <div class="col-md-6 col-lg-4">
+                <div class="choose-item text-center wow fadeInUp" data-wow-delay=".3s">
+                    <div class="choose-thumb">
+                        <i class="flaticon-global"></i>
+                    </div>
+                    <div class="choose-content">
+                        <h5 class="title">Global reach and local presence</h5>
+						<p>
+							Global presence makes available to the firm's managers five value-creation opportunities.
+						</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="choose-item text-center wow fadeInUp" data-wow-delay=".3s">
+                    <div class="choose-thumb">
+                        <i class="flaticon-ui"></i>
+                    </div>
+                    <div class="choose-content">
+                        <h5 class="title">customer user experience</h5>
+						<p>
+							User Experience (UX) deals with people interacting with your product and the experience.
+						</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="choose-item text-center wow fadeInUp" data-wow-delay=".3s">
+                    <div class="choose-thumb">
+                        <i class="flaticon-clock"></i>
+                    </div>
+                    <div class="choose-content">
+                        <h5 class="title">fast & Flexible solutions</h5>
+						<p>
+							Fast, reliable SMS services fuels today’s businesses,When you’re connecting remotly anywhere.
+						</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="container">
+    <div class="bb-dashed"></div>
+</div>
+<!--=================Chooose Us================= -->
+<!--=================Our Offer================= -->
+<section class="offer-section bg-ash padding-top padding-bottom">
+    <div class="container">
+        <div class="section-header wow fadeInUp">
+            <span class="cate">our offer</span>
+            <h2 class="title">what we offer</h2>
+        </div>
+    </div>
+    <div class="container mw-lg-100">
+        <div class="row align-items-center flex-wrap-reverse">
+            <div class="col-lg-6">
+                <div class="left-side-offer wow fadeInUp" data-wow-delay=".3s">
+                    <h4 class="title">get our best offer for your better business</h4>
+					<p>Our aim is to leverage the impact of meaningful companies by providing the best performance-based customer acquisition solution on the market, powered by Online SMS.</p>
+                    <ul>
+						<li>Based on our data pool with millions of historical user signals.</li>
+						<li>Algorithms identify and capture high-value users for a product on a massive scale.</li>
+						<li> Our system recommends a personalized list of relevant product options to the user in real time. </li>
+                    </ul>
+					<p>The user compares the different options and then makes a purchasing decision based on user reviews and comparison data.</p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="right-side-offer wow slideInRight" data-wow-delay=".3s">
+
+                    <img src="~/assets/images/offer/offer01.png" alt="offer"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--=================Our Offer================= -->
+<!--=================Client Say================= -->
+<section class="client-say padding-bottom padding-top">
+    <div class="container">
+        <div class="section-header wow fadeInUp">
+            <span class="cate">client feedback</span>
+            <h2 class="title">client what say about</h2>
+        </div>
+        <div class="client-say-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="client-item">
+                        <div class="client-thumb">
+                            <a href="#0"><img src="~/assets/images/client/client02.jpg" alt="client"></a>
+                        </div>
+                        <div class="client-content">
+                            <h4 class="title"><a href="#0">fahad bin foyej</a></h4>
+                            <span>Business Man</span>
+							<blockquote>
+								I have had a great experience with Online SMS, Quick and easy setup, great looking system packed with features and excellent support via chat and email.
+							</blockquote>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="client-item">
+                        <div class="client-thumb">
+                            <a href="#0"><img src="~/assets/images/client/client03.jpg" alt="client"></a>
+                        </div>
+                        <div class="client-content">
+                            <h4 class="title"><a href="#0">Abu Raihan Rafuj</a></h4>
+                            <span>Business Man</span>
+							<blockquote>
+								Everything is good, SMS service is working well and everything is brilliant. My Korean bosses are so chuffed with the services.
+							</blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="client-pagination"></div>
+        </div>
+    </div>
+</section>
+<!--=================Client Say================= -->
+<!--=================Counter================= -->
+<section class="counter-up-section">
+    <div class="container">
+        <div class="counter-wrapper">
+            <div class="counter-item wow fadeInUp" data-wow-delay=".3s">
+                <div class="counter-header">
+                    <i class="flaticon-call-center"></i>
+                    <h2 class="title">
+                        <span class="counter">1000</span>+
+                    </h2>
+                </div>
+                <p>Support Countries</p>
+            </div>
+            <div class="counter-item wow fadeInUp" data-wow-delay=".3s">
+                <div class="counter-header">
+                    <i class="flaticon-happiness"></i>
+                    <h2 class="title">
+                        <span class="counter">35</span>k
+                    </h2>
+                </div>
+                <p>happy customers</p>
+            </div>
+            <div class="counter-item wow fadeInUp" data-wow-delay=".3s">
+                <div class="counter-header">
+                    <i class="flaticon-project"></i>
+                    <h2 class="title">
+                        <span class="counter">230</span>
+                    </h2>
+                </div>
+                <p>total project done</p>
+            </div>
+            <div class="counter-item wow fadeInUp" data-wow-delay=".3s">
+                <div class="counter-header">
+                    <i class="flaticon-collaboration"></i>
+                    <h2 class="title">
+                        <span class="counter">658</span>
+                    </h2>
+                </div>
+                <p>team members</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--=================Counter================= -->
+<!--=================Sms Testing================= -->
+<section class="sms-testing padding-bottom padding-top bg-ash">
+    <div class="container">
+        <div class="section-header wow fadeInUp">
+            <span class="cate">sms testing</span>
+            <h2 class="title">test your SMS delivery</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="testing-item wow fadeInUp" data-wow-delay=".3s">
+                    <h4 class="title">send us your SMS text</h4>
+                    <form class="testing-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Country">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Registration Email">
+                        </div>
+                        <div class="form-group w-100">
+                            <input type="tel" placeholder="Phone">
+                        </div>
+                        <div class="form-group w-100">
+                            <textarea placeholder="SMS text write in here"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" value="Submit Now">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="testing-item wow fadeInUp" data-wow-delay=".3s">
+                    <h4 class="title">about our privacy</h4>
+					<p>As a best practice, your privacy policy should include an accurate description of your program and how you will handle data in connection with that program. We also recommend including information regarding what you do with the phone numbers you collect, how you use them, who you share them with, etc. The privacy policy should be accessible from the opt-in method (e.g., signup form).</p>
+                    <ul class="bullet-list">
+						<li>
+							SMS abandoned cart
+						</li>
+						<li>
+							Third-party data sharing
+						</li>
+						<li>
+							Location tracking or location-based services
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--=================Sms Testing================= -->
+<!--=================Sponsor Section================= -->
+<div class="sponsor-section bg-f3 padding-bottom padding-top">
+    <div class="container">
+        <div class="sponsor-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="sponsor-thumb">
+                        <img src="~/assets/images/sponsor/sponsor01.png" alt="sponsor">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="sponsor-thumb">
+                        <img src="~/assets/images/sponsor/sponsor02.png" alt="sponsor">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="sponsor-thumb">
+                        <img src="~/assets/images/sponsor/sponsor03.png" alt="sponsor">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="sponsor-thumb">
+                        <img src="~/assets/images/sponsor/sponsor04.png" alt="sponsor">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="sponsor-thumb">
+                        <img src="~/assets/images/sponsor/sponsor05.png" alt="sponsor">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="sponsor-thumb">
+                        <img src="~/assets/images/sponsor/sponsor06.png" alt="sponsor">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="sponsor-thumb">
+                        <img src="~/assets/images/sponsor/sponsor07.png" alt="sponsor">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="sponsor-thumb">
+                        <img src="~/assets/images/sponsor/sponsor08.png" alt="sponsor">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--=================Sponsor Section================= -->

@@ -1,0 +1,282 @@
+C:\Users\asp\Desktop\onlinesms\onlinesms\bin\onlinesms.dll.config
+C:\Users\asp\Desktop\onlinesms\onlinesms\bin\onlinesms.dll
+C:\Users\asp\Desktop\onlinesms\onlinesms\bin\onlinesms.pdb
+C:\Users\asp\Desktop\onlinesms\onlinesms\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\asp\Desktop\onlinesms\onlinesms\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\asp\Desktop\onlinesms\onlinesms\bin\System.Web.Helpers.dll
+C:\Users\asp\Desktop\onlinesms\onlinesms\bin\System.Web.Mvc.dll
+C:\Users\asp\Desktop\onlinesms\onlinesms\bin\System.Web.Razor.dll
+C:\Users\asp\Desktop\onlinesms\onlinesms\bin\System.Web.Webpages.Deployment.dll
+C:\Users\asp\Desktop\onlinesms\onlinesms\bin\System.Web.Webpages.dll
+C:\Users\asp\Desktop\onlinesms\onlinesms\bin\System.Web.Webpages.Razor.dll
+C:\Users\asp\Desktop\onlinesms\onlinesms\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\asp\Desktop\onlinesms\onlinesms\bin\System.Web.Razor.xml
+C:\Users\asp\Desktop\onlinesms\onlinesms\bin\System.Web.Webpages.xml
+C:\Users\asp\Desktop\onlinesms\onlinesms\bin\System.Web.Webpages.Deployment.xml
+C:\Users\asp\Desktop\onlinesms\onlinesms\bin\System.Web.Webpages.Razor.xml
+C:\Users\asp\Desktop\onlinesms\onlinesms\bin\System.Web.Helpers.xml
+C:\Users\asp\Desktop\onlinesms\onlinesms\bin\System.Web.Mvc.xml
+C:\Users\asp\Desktop\onlinesms\onlinesms\obj\Debug\onlinesms.csprojResolveAssemblyReference.cache
+C:\Users\asp\Desktop\onlinesms\onlinesms\obj\Debug\onlinesms.csproj.CoreCompileInputs.cache
+C:\Users\asp\Desktop\onlinesms\onlinesms\obj\Debug\onlinesms.dll
+C:\Users\asp\Desktop\onlinesms\onlinesms\obj\Debug\onlinesms.pdb
+D:\D\Shahrukh Aptech\Online SMS Services\onlinesms\onlinesms\bin\onlinesms.dll.config
+D:\D\Shahrukh Aptech\Online SMS Services\onlinesms\onlinesms\bin\onlinesms.dll
+D:\D\Shahrukh Aptech\Online SMS Services\onlinesms\onlinesms\bin\onlinesms.pdb
+D:\D\Shahrukh Aptech\Online SMS Services\onlinesms\onlinesms\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\D\Shahrukh Aptech\Online SMS Services\onlinesms\onlinesms\bin\Microsoft.Web.Infrastructure.dll
+D:\D\Shahrukh Aptech\Online SMS Services\onlinesms\onlinesms\bin\System.Web.Helpers.dll
+D:\D\Shahrukh Aptech\Online SMS Services\onlinesms\onlinesms\bin\System.Web.Mvc.dll
+D:\D\Shahrukh Aptech\Online SMS Services\onlinesms\onlinesms\bin\System.Web.Razor.dll
+D:\D\Shahrukh Aptech\Online SMS Services\onlinesms\onlinesms\bin\System.Web.Webpages.Deployment.dll
+D:\D\Shahrukh Aptech\Online SMS Services\onlinesms\onlinesms\bin\System.Web.Webpages.dll
+D:\D\Shahrukh Aptech\Online SMS Services\onlinesms\onlinesms\bin\System.Web.Webpages.Razor.dll
+D:\D\Shahrukh Aptech\Online SMS Services\onlinesms\onlinesms\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\D\Shahrukh Aptech\Online SMS Services\onlinesms\onlinesms\bin\System.Web.Razor.xml
+D:\D\Shahrukh Aptech\Online SMS Services\onlinesms\onlinesms\bin\System.Web.Webpages.xml
+D:\D\Shahrukh Aptech\Online SMS Services\onlinesms\onlinesms\bin\System.Web.Webpages.Deployment.xml
+D:\D\Shahrukh Aptech\Online SMS Services\onlinesms\onlinesms\bin\System.Web.Webpages.Razor.xml
+D:\D\Shahrukh Aptech\Online SMS Services\onlinesms\onlinesms\bin\System.Web.Helpers.xml
+D:\D\Shahrukh Aptech\Online SMS Services\onlinesms\onlinesms\bin\System.Web.Mvc.xml
+D:\D\Shahrukh Aptech\Online SMS Services\onlinesms\onlinesms\obj\Debug\onlinesms.csprojAssemblyReference.cache
+D:\D\Shahrukh Aptech\Online SMS Services\onlinesms\onlinesms\obj\Debug\onlinesms.csproj.CoreCompileInputs.cache
+D:\D\Shahrukh Aptech\Online SMS Services\onlinesms\onlinesms\obj\Debug\onlinesms.csproj.CopyComplete
+D:\D\Shahrukh Aptech\Online SMS Services\onlinesms\onlinesms\obj\Debug\onlinesms.dll
+D:\D\Shahrukh Aptech\Online SMS Services\onlinesms\onlinesms\obj\Debug\onlinesms.pdb
+C:\Users\asp\Downloads\onlinesms\onlinesms\bin\onlinesms.dll.config
+C:\Users\asp\Downloads\onlinesms\onlinesms\bin\onlinesms.dll
+C:\Users\asp\Downloads\onlinesms\onlinesms\bin\onlinesms.pdb
+C:\Users\asp\Downloads\onlinesms\onlinesms\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\asp\Downloads\onlinesms\onlinesms\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\asp\Downloads\onlinesms\onlinesms\bin\System.Web.Helpers.dll
+C:\Users\asp\Downloads\onlinesms\onlinesms\bin\System.Web.Mvc.dll
+C:\Users\asp\Downloads\onlinesms\onlinesms\bin\System.Web.Razor.dll
+C:\Users\asp\Downloads\onlinesms\onlinesms\bin\System.Web.Webpages.Deployment.dll
+C:\Users\asp\Downloads\onlinesms\onlinesms\bin\System.Web.Webpages.dll
+C:\Users\asp\Downloads\onlinesms\onlinesms\bin\System.Web.Webpages.Razor.dll
+C:\Users\asp\Downloads\onlinesms\onlinesms\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\asp\Downloads\onlinesms\onlinesms\bin\System.Web.Razor.xml
+C:\Users\asp\Downloads\onlinesms\onlinesms\bin\System.Web.Webpages.xml
+C:\Users\asp\Downloads\onlinesms\onlinesms\bin\System.Web.Webpages.Deployment.xml
+C:\Users\asp\Downloads\onlinesms\onlinesms\bin\System.Web.Webpages.Razor.xml
+C:\Users\asp\Downloads\onlinesms\onlinesms\bin\System.Web.Helpers.xml
+C:\Users\asp\Downloads\onlinesms\onlinesms\bin\System.Web.Mvc.xml
+C:\Users\asp\Downloads\onlinesms\onlinesms\obj\Debug\onlinesms.csprojResolveAssemblyReference.cache
+C:\Users\asp\Downloads\onlinesms\onlinesms\obj\Debug\onlinesms.csproj.CoreCompileInputs.cache
+C:\Users\asp\Downloads\onlinesms\onlinesms\obj\Debug\onlinesms.dll
+C:\Users\asp\Downloads\onlinesms\onlinesms\obj\Debug\onlinesms.pdb
+C:\Users\DELL 6540\Desktop\Semester 2 Project\onlinesms\onlinesms\bin\onlinesms.dll.config
+C:\Users\DELL 6540\Desktop\Semester 2 Project\onlinesms\onlinesms\bin\onlinesms.dll
+C:\Users\DELL 6540\Desktop\Semester 2 Project\onlinesms\onlinesms\bin\onlinesms.pdb
+C:\Users\DELL 6540\Desktop\Semester 2 Project\onlinesms\onlinesms\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\DELL 6540\Desktop\Semester 2 Project\onlinesms\onlinesms\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\DELL 6540\Desktop\Semester 2 Project\onlinesms\onlinesms\bin\System.Web.Helpers.dll
+C:\Users\DELL 6540\Desktop\Semester 2 Project\onlinesms\onlinesms\bin\System.Web.Mvc.dll
+C:\Users\DELL 6540\Desktop\Semester 2 Project\onlinesms\onlinesms\bin\System.Web.Razor.dll
+C:\Users\DELL 6540\Desktop\Semester 2 Project\onlinesms\onlinesms\bin\System.Web.Webpages.Deployment.dll
+C:\Users\DELL 6540\Desktop\Semester 2 Project\onlinesms\onlinesms\bin\System.Web.Webpages.dll
+C:\Users\DELL 6540\Desktop\Semester 2 Project\onlinesms\onlinesms\bin\System.Web.Webpages.Razor.dll
+C:\Users\DELL 6540\Desktop\Semester 2 Project\onlinesms\onlinesms\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\DELL 6540\Desktop\Semester 2 Project\onlinesms\onlinesms\bin\System.Web.Razor.xml
+C:\Users\DELL 6540\Desktop\Semester 2 Project\onlinesms\onlinesms\bin\System.Web.Webpages.xml
+C:\Users\DELL 6540\Desktop\Semester 2 Project\onlinesms\onlinesms\bin\System.Web.Webpages.Deployment.xml
+C:\Users\DELL 6540\Desktop\Semester 2 Project\onlinesms\onlinesms\bin\System.Web.Webpages.Razor.xml
+C:\Users\DELL 6540\Desktop\Semester 2 Project\onlinesms\onlinesms\bin\System.Web.Helpers.xml
+C:\Users\DELL 6540\Desktop\Semester 2 Project\onlinesms\onlinesms\bin\System.Web.Mvc.xml
+C:\Users\DELL 6540\Desktop\Semester 2 Project\onlinesms\onlinesms\obj\Debug\onlinesms.csproj.AssemblyReference.cache
+C:\Users\DELL 6540\Desktop\Semester 2 Project\onlinesms\onlinesms\obj\Debug\onlinesms.csproj.CoreCompileInputs.cache
+C:\Users\DELL 6540\Desktop\Semester 2 Project\onlinesms\onlinesms\obj\Debug\onlinesms.csproj.CopyComplete
+C:\Users\DELL 6540\Desktop\Semester 2 Project\onlinesms\onlinesms\obj\Debug\onlinesms.dll
+C:\Users\DELL 6540\Desktop\Semester 2 Project\onlinesms\onlinesms\obj\Debug\onlinesms.pdb
+C:\Users\DELL 6540\Desktop\Semester 2 Project\onlinesms\onlinesms\bin\EntityFramework.dll
+C:\Users\DELL 6540\Desktop\Semester 2 Project\onlinesms\onlinesms\bin\EntityFramework.SqlServer.dll
+C:\Users\DELL 6540\Desktop\Semester 2 Project\onlinesms\onlinesms\bin\EntityFramework.xml
+C:\Users\DELL 6540\Desktop\Semester 2 Project\onlinesms\onlinesms\bin\EntityFramework.SqlServer.xml
+D:\D\Shahrukh Aptech\Online SMS Services\Semester 2 Project\onlinesms\onlinesms\bin\onlinesms.dll.config
+D:\D\Shahrukh Aptech\Online SMS Services\Semester 2 Project\onlinesms\onlinesms\bin\onlinesms.dll
+D:\D\Shahrukh Aptech\Online SMS Services\Semester 2 Project\onlinesms\onlinesms\bin\onlinesms.pdb
+D:\D\Shahrukh Aptech\Online SMS Services\Semester 2 Project\onlinesms\onlinesms\bin\EntityFramework.dll
+D:\D\Shahrukh Aptech\Online SMS Services\Semester 2 Project\onlinesms\onlinesms\bin\EntityFramework.SqlServer.dll
+D:\D\Shahrukh Aptech\Online SMS Services\Semester 2 Project\onlinesms\onlinesms\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\D\Shahrukh Aptech\Online SMS Services\Semester 2 Project\onlinesms\onlinesms\bin\Microsoft.Web.Infrastructure.dll
+D:\D\Shahrukh Aptech\Online SMS Services\Semester 2 Project\onlinesms\onlinesms\bin\System.Web.Helpers.dll
+D:\D\Shahrukh Aptech\Online SMS Services\Semester 2 Project\onlinesms\onlinesms\bin\System.Web.Mvc.dll
+D:\D\Shahrukh Aptech\Online SMS Services\Semester 2 Project\onlinesms\onlinesms\bin\System.Web.Razor.dll
+D:\D\Shahrukh Aptech\Online SMS Services\Semester 2 Project\onlinesms\onlinesms\bin\System.Web.Webpages.Deployment.dll
+D:\D\Shahrukh Aptech\Online SMS Services\Semester 2 Project\onlinesms\onlinesms\bin\System.Web.Webpages.dll
+D:\D\Shahrukh Aptech\Online SMS Services\Semester 2 Project\onlinesms\onlinesms\bin\System.Web.Webpages.Razor.dll
+D:\D\Shahrukh Aptech\Online SMS Services\Semester 2 Project\onlinesms\onlinesms\bin\EntityFramework.xml
+D:\D\Shahrukh Aptech\Online SMS Services\Semester 2 Project\onlinesms\onlinesms\bin\EntityFramework.SqlServer.xml
+D:\D\Shahrukh Aptech\Online SMS Services\Semester 2 Project\onlinesms\onlinesms\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\D\Shahrukh Aptech\Online SMS Services\Semester 2 Project\onlinesms\onlinesms\bin\System.Web.Razor.xml
+D:\D\Shahrukh Aptech\Online SMS Services\Semester 2 Project\onlinesms\onlinesms\bin\System.Web.Webpages.xml
+D:\D\Shahrukh Aptech\Online SMS Services\Semester 2 Project\onlinesms\onlinesms\bin\System.Web.Webpages.Deployment.xml
+D:\D\Shahrukh Aptech\Online SMS Services\Semester 2 Project\onlinesms\onlinesms\bin\System.Web.Webpages.Razor.xml
+D:\D\Shahrukh Aptech\Online SMS Services\Semester 2 Project\onlinesms\onlinesms\bin\System.Web.Helpers.xml
+D:\D\Shahrukh Aptech\Online SMS Services\Semester 2 Project\onlinesms\onlinesms\bin\System.Web.Mvc.xml
+D:\D\Shahrukh Aptech\Online SMS Services\Semester 2 Project\onlinesms\onlinesms\obj\Debug\onlinesms.csproj.AssemblyReference.cache
+D:\D\Shahrukh Aptech\Online SMS Services\Semester 2 Project\onlinesms\onlinesms\obj\Debug\onlinesms.csproj.CoreCompileInputs.cache
+D:\D\Shahrukh Aptech\Online SMS Services\Semester 2 Project\onlinesms\onlinesms\obj\Debug\onlinesms.csproj.CopyComplete
+D:\D\Shahrukh Aptech\Online SMS Services\Semester 2 Project\onlinesms\onlinesms\obj\Debug\onlinesms.dll
+D:\D\Shahrukh Aptech\Online SMS Services\Semester 2 Project\onlinesms\onlinesms\obj\Debug\onlinesms.pdb
+D:\D\Shahrukh Aptech\Online SMS Services\Semester 2 Project SRA\onlinesms\onlinesms\bin\onlinesms.dll.config
+D:\D\Shahrukh Aptech\Online SMS Services\Semester 2 Project SRA\onlinesms\onlinesms\bin\onlinesms.dll
+D:\D\Shahrukh Aptech\Online SMS Services\Semester 2 Project SRA\onlinesms\onlinesms\bin\onlinesms.pdb
+D:\D\Shahrukh Aptech\Online SMS Services\Semester 2 Project SRA\onlinesms\onlinesms\bin\EntityFramework.dll
+D:\D\Shahrukh Aptech\Online SMS Services\Semester 2 Project SRA\onlinesms\onlinesms\bin\EntityFramework.SqlServer.dll
+D:\D\Shahrukh Aptech\Online SMS Services\Semester 2 Project SRA\onlinesms\onlinesms\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\D\Shahrukh Aptech\Online SMS Services\Semester 2 Project SRA\onlinesms\onlinesms\bin\Microsoft.Web.Infrastructure.dll
+D:\D\Shahrukh Aptech\Online SMS Services\Semester 2 Project SRA\onlinesms\onlinesms\bin\System.Web.Helpers.dll
+D:\D\Shahrukh Aptech\Online SMS Services\Semester 2 Project SRA\onlinesms\onlinesms\bin\System.Web.Mvc.dll
+D:\D\Shahrukh Aptech\Online SMS Services\Semester 2 Project SRA\onlinesms\onlinesms\bin\System.Web.Razor.dll
+D:\D\Shahrukh Aptech\Online SMS Services\Semester 2 Project SRA\onlinesms\onlinesms\bin\System.Web.Webpages.Deployment.dll
+D:\D\Shahrukh Aptech\Online SMS Services\Semester 2 Project SRA\onlinesms\onlinesms\bin\System.Web.Webpages.dll
+D:\D\Shahrukh Aptech\Online SMS Services\Semester 2 Project SRA\onlinesms\onlinesms\bin\System.Web.Webpages.Razor.dll
+D:\D\Shahrukh Aptech\Online SMS Services\Semester 2 Project SRA\onlinesms\onlinesms\bin\EntityFramework.xml
+D:\D\Shahrukh Aptech\Online SMS Services\Semester 2 Project SRA\onlinesms\onlinesms\bin\EntityFramework.SqlServer.xml
+D:\D\Shahrukh Aptech\Online SMS Services\Semester 2 Project SRA\onlinesms\onlinesms\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\D\Shahrukh Aptech\Online SMS Services\Semester 2 Project SRA\onlinesms\onlinesms\bin\System.Web.Razor.xml
+D:\D\Shahrukh Aptech\Online SMS Services\Semester 2 Project SRA\onlinesms\onlinesms\bin\System.Web.Webpages.xml
+D:\D\Shahrukh Aptech\Online SMS Services\Semester 2 Project SRA\onlinesms\onlinesms\bin\System.Web.Webpages.Deployment.xml
+D:\D\Shahrukh Aptech\Online SMS Services\Semester 2 Project SRA\onlinesms\onlinesms\bin\System.Web.Webpages.Razor.xml
+D:\D\Shahrukh Aptech\Online SMS Services\Semester 2 Project SRA\onlinesms\onlinesms\bin\System.Web.Helpers.xml
+D:\D\Shahrukh Aptech\Online SMS Services\Semester 2 Project SRA\onlinesms\onlinesms\bin\System.Web.Mvc.xml
+D:\D\Shahrukh Aptech\Online SMS Services\Semester 2 Project SRA\onlinesms\onlinesms\obj\Debug\onlinesms.csproj.AssemblyReference.cache
+D:\D\Shahrukh Aptech\Online SMS Services\Semester 2 Project SRA\onlinesms\onlinesms\obj\Debug\onlinesms.csproj.CoreCompileInputs.cache
+D:\D\Shahrukh Aptech\Online SMS Services\Semester 2 Project SRA\onlinesms\onlinesms\obj\Debug\onlinesms.csproj.CopyComplete
+D:\D\Shahrukh Aptech\Online SMS Services\Semester 2 Project SRA\onlinesms\onlinesms\obj\Debug\onlinesms.dll
+D:\D\Shahrukh Aptech\Online SMS Services\Semester 2 Project SRA\onlinesms\onlinesms\obj\Debug\onlinesms.pdb
+C:\Users\asp\Downloads\Semester 2 Project SRA\onlinesms\onlinesms\bin\onlinesms.dll.config
+C:\Users\asp\Downloads\Semester 2 Project SRA\onlinesms\onlinesms\bin\onlinesms.dll
+C:\Users\asp\Downloads\Semester 2 Project SRA\onlinesms\onlinesms\bin\onlinesms.pdb
+C:\Users\asp\Downloads\Semester 2 Project SRA\onlinesms\onlinesms\bin\EntityFramework.dll
+C:\Users\asp\Downloads\Semester 2 Project SRA\onlinesms\onlinesms\bin\EntityFramework.SqlServer.dll
+C:\Users\asp\Downloads\Semester 2 Project SRA\onlinesms\onlinesms\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\asp\Downloads\Semester 2 Project SRA\onlinesms\onlinesms\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\asp\Downloads\Semester 2 Project SRA\onlinesms\onlinesms\bin\System.Web.Helpers.dll
+C:\Users\asp\Downloads\Semester 2 Project SRA\onlinesms\onlinesms\bin\System.Web.Mvc.dll
+C:\Users\asp\Downloads\Semester 2 Project SRA\onlinesms\onlinesms\bin\System.Web.Razor.dll
+C:\Users\asp\Downloads\Semester 2 Project SRA\onlinesms\onlinesms\bin\System.Web.Webpages.Deployment.dll
+C:\Users\asp\Downloads\Semester 2 Project SRA\onlinesms\onlinesms\bin\System.Web.Webpages.dll
+C:\Users\asp\Downloads\Semester 2 Project SRA\onlinesms\onlinesms\bin\System.Web.Webpages.Razor.dll
+C:\Users\asp\Downloads\Semester 2 Project SRA\onlinesms\onlinesms\bin\EntityFramework.xml
+C:\Users\asp\Downloads\Semester 2 Project SRA\onlinesms\onlinesms\bin\EntityFramework.SqlServer.xml
+C:\Users\asp\Downloads\Semester 2 Project SRA\onlinesms\onlinesms\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\asp\Downloads\Semester 2 Project SRA\onlinesms\onlinesms\bin\System.Web.Razor.xml
+C:\Users\asp\Downloads\Semester 2 Project SRA\onlinesms\onlinesms\bin\System.Web.Webpages.xml
+C:\Users\asp\Downloads\Semester 2 Project SRA\onlinesms\onlinesms\bin\System.Web.Webpages.Deployment.xml
+C:\Users\asp\Downloads\Semester 2 Project SRA\onlinesms\onlinesms\bin\System.Web.Webpages.Razor.xml
+C:\Users\asp\Downloads\Semester 2 Project SRA\onlinesms\onlinesms\bin\System.Web.Helpers.xml
+C:\Users\asp\Downloads\Semester 2 Project SRA\onlinesms\onlinesms\bin\System.Web.Mvc.xml
+C:\Users\asp\Downloads\Semester 2 Project SRA\onlinesms\onlinesms\obj\Debug\onlinesms.csprojResolveAssemblyReference.cache
+C:\Users\asp\Downloads\Semester 2 Project SRA\onlinesms\onlinesms\obj\Debug\onlinesms.csproj.CoreCompileInputs.cache
+C:\Users\asp\Downloads\Semester 2 Project SRA\onlinesms\onlinesms\obj\Debug\onlinesms.dll
+C:\Users\asp\Downloads\Semester 2 Project SRA\onlinesms\onlinesms\obj\Debug\onlinesms.pdb
+C:\Users\DELL 6540\Downloads\Semester 2 Project SRA\onlinesms\onlinesms\bin\onlinesms.dll.config
+C:\Users\DELL 6540\Downloads\Semester 2 Project SRA\onlinesms\onlinesms\bin\onlinesms.dll
+C:\Users\DELL 6540\Downloads\Semester 2 Project SRA\onlinesms\onlinesms\bin\onlinesms.pdb
+C:\Users\DELL 6540\Downloads\Semester 2 Project SRA\onlinesms\onlinesms\bin\EntityFramework.dll
+C:\Users\DELL 6540\Downloads\Semester 2 Project SRA\onlinesms\onlinesms\bin\EntityFramework.SqlServer.dll
+C:\Users\DELL 6540\Downloads\Semester 2 Project SRA\onlinesms\onlinesms\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\DELL 6540\Downloads\Semester 2 Project SRA\onlinesms\onlinesms\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\DELL 6540\Downloads\Semester 2 Project SRA\onlinesms\onlinesms\bin\System.Web.Helpers.dll
+C:\Users\DELL 6540\Downloads\Semester 2 Project SRA\onlinesms\onlinesms\bin\System.Web.Mvc.dll
+C:\Users\DELL 6540\Downloads\Semester 2 Project SRA\onlinesms\onlinesms\bin\System.Web.Razor.dll
+C:\Users\DELL 6540\Downloads\Semester 2 Project SRA\onlinesms\onlinesms\bin\System.Web.Webpages.Deployment.dll
+C:\Users\DELL 6540\Downloads\Semester 2 Project SRA\onlinesms\onlinesms\bin\System.Web.Webpages.dll
+C:\Users\DELL 6540\Downloads\Semester 2 Project SRA\onlinesms\onlinesms\bin\System.Web.Webpages.Razor.dll
+C:\Users\DELL 6540\Downloads\Semester 2 Project SRA\onlinesms\onlinesms\bin\EntityFramework.xml
+C:\Users\DELL 6540\Downloads\Semester 2 Project SRA\onlinesms\onlinesms\bin\EntityFramework.SqlServer.xml
+C:\Users\DELL 6540\Downloads\Semester 2 Project SRA\onlinesms\onlinesms\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\DELL 6540\Downloads\Semester 2 Project SRA\onlinesms\onlinesms\bin\System.Web.Razor.xml
+C:\Users\DELL 6540\Downloads\Semester 2 Project SRA\onlinesms\onlinesms\bin\System.Web.Webpages.xml
+C:\Users\DELL 6540\Downloads\Semester 2 Project SRA\onlinesms\onlinesms\bin\System.Web.Webpages.Deployment.xml
+C:\Users\DELL 6540\Downloads\Semester 2 Project SRA\onlinesms\onlinesms\bin\System.Web.Webpages.Razor.xml
+C:\Users\DELL 6540\Downloads\Semester 2 Project SRA\onlinesms\onlinesms\bin\System.Web.Helpers.xml
+C:\Users\DELL 6540\Downloads\Semester 2 Project SRA\onlinesms\onlinesms\bin\System.Web.Mvc.xml
+C:\Users\DELL 6540\Downloads\Semester 2 Project SRA\onlinesms\onlinesms\obj\Debug\onlinesms.csproj.AssemblyReference.cache
+C:\Users\DELL 6540\Downloads\Semester 2 Project SRA\onlinesms\onlinesms\obj\Debug\onlinesms.csproj.CoreCompileInputs.cache
+C:\Users\DELL 6540\Downloads\Semester 2 Project SRA\onlinesms\onlinesms\obj\Debug\onlinesms.csproj.CopyComplete
+C:\Users\DELL 6540\Downloads\Semester 2 Project SRA\onlinesms\onlinesms\obj\Debug\onlinesms.dll
+C:\Users\DELL 6540\Downloads\Semester 2 Project SRA\onlinesms\onlinesms\obj\Debug\onlinesms.pdb
+C:\Users\DELL 6540\Downloads\Semester 2 Project Hamza updated\onlinesms\onlinesms\bin\onlinesms.dll.config
+C:\Users\DELL 6540\Downloads\Semester 2 Project Hamza updated\onlinesms\onlinesms\bin\onlinesms.dll
+C:\Users\DELL 6540\Downloads\Semester 2 Project Hamza updated\onlinesms\onlinesms\bin\onlinesms.pdb
+C:\Users\DELL 6540\Downloads\Semester 2 Project Hamza updated\onlinesms\onlinesms\bin\EntityFramework.dll
+C:\Users\DELL 6540\Downloads\Semester 2 Project Hamza updated\onlinesms\onlinesms\bin\EntityFramework.SqlServer.dll
+C:\Users\DELL 6540\Downloads\Semester 2 Project Hamza updated\onlinesms\onlinesms\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\DELL 6540\Downloads\Semester 2 Project Hamza updated\onlinesms\onlinesms\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\DELL 6540\Downloads\Semester 2 Project Hamza updated\onlinesms\onlinesms\bin\System.Web.Helpers.dll
+C:\Users\DELL 6540\Downloads\Semester 2 Project Hamza updated\onlinesms\onlinesms\bin\System.Web.Mvc.dll
+C:\Users\DELL 6540\Downloads\Semester 2 Project Hamza updated\onlinesms\onlinesms\bin\System.Web.Razor.dll
+C:\Users\DELL 6540\Downloads\Semester 2 Project Hamza updated\onlinesms\onlinesms\bin\System.Web.Webpages.Deployment.dll
+C:\Users\DELL 6540\Downloads\Semester 2 Project Hamza updated\onlinesms\onlinesms\bin\System.Web.Webpages.dll
+C:\Users\DELL 6540\Downloads\Semester 2 Project Hamza updated\onlinesms\onlinesms\bin\System.Web.Webpages.Razor.dll
+C:\Users\DELL 6540\Downloads\Semester 2 Project Hamza updated\onlinesms\onlinesms\bin\EntityFramework.xml
+C:\Users\DELL 6540\Downloads\Semester 2 Project Hamza updated\onlinesms\onlinesms\bin\EntityFramework.SqlServer.xml
+C:\Users\DELL 6540\Downloads\Semester 2 Project Hamza updated\onlinesms\onlinesms\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\DELL 6540\Downloads\Semester 2 Project Hamza updated\onlinesms\onlinesms\bin\System.Web.Razor.xml
+C:\Users\DELL 6540\Downloads\Semester 2 Project Hamza updated\onlinesms\onlinesms\bin\System.Web.Webpages.xml
+C:\Users\DELL 6540\Downloads\Semester 2 Project Hamza updated\onlinesms\onlinesms\bin\System.Web.Webpages.Deployment.xml
+C:\Users\DELL 6540\Downloads\Semester 2 Project Hamza updated\onlinesms\onlinesms\bin\System.Web.Webpages.Razor.xml
+C:\Users\DELL 6540\Downloads\Semester 2 Project Hamza updated\onlinesms\onlinesms\bin\System.Web.Helpers.xml
+C:\Users\DELL 6540\Downloads\Semester 2 Project Hamza updated\onlinesms\onlinesms\bin\System.Web.Mvc.xml
+C:\Users\DELL 6540\Downloads\Semester 2 Project Hamza updated\onlinesms\onlinesms\obj\Debug\onlinesms.csproj.AssemblyReference.cache
+C:\Users\DELL 6540\Downloads\Semester 2 Project Hamza updated\onlinesms\onlinesms\obj\Debug\onlinesms.csproj.CoreCompileInputs.cache
+C:\Users\DELL 6540\Downloads\Semester 2 Project Hamza updated\onlinesms\onlinesms\obj\Debug\onlinesms.csproj.CopyComplete
+C:\Users\DELL 6540\Downloads\Semester 2 Project Hamza updated\onlinesms\onlinesms\obj\Debug\onlinesms.dll
+C:\Users\DELL 6540\Downloads\Semester 2 Project Hamza updated\onlinesms\onlinesms\obj\Debug\onlinesms.pdb
+C:\Users\DELL 6540\Desktop\Semester 2 Project Hamza updated\onlinesms\onlinesms\bin\onlinesms.dll.config
+C:\Users\DELL 6540\Desktop\Semester 2 Project Hamza updated\onlinesms\onlinesms\bin\onlinesms.dll
+C:\Users\DELL 6540\Desktop\Semester 2 Project Hamza updated\onlinesms\onlinesms\bin\onlinesms.pdb
+C:\Users\DELL 6540\Desktop\Semester 2 Project Hamza updated\onlinesms\onlinesms\bin\EntityFramework.dll
+C:\Users\DELL 6540\Desktop\Semester 2 Project Hamza updated\onlinesms\onlinesms\bin\EntityFramework.SqlServer.dll
+C:\Users\DELL 6540\Desktop\Semester 2 Project Hamza updated\onlinesms\onlinesms\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\DELL 6540\Desktop\Semester 2 Project Hamza updated\onlinesms\onlinesms\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\DELL 6540\Desktop\Semester 2 Project Hamza updated\onlinesms\onlinesms\bin\System.Web.Helpers.dll
+C:\Users\DELL 6540\Desktop\Semester 2 Project Hamza updated\onlinesms\onlinesms\bin\System.Web.Mvc.dll
+C:\Users\DELL 6540\Desktop\Semester 2 Project Hamza updated\onlinesms\onlinesms\bin\System.Web.Razor.dll
+C:\Users\DELL 6540\Desktop\Semester 2 Project Hamza updated\onlinesms\onlinesms\bin\System.Web.Webpages.Deployment.dll
+C:\Users\DELL 6540\Desktop\Semester 2 Project Hamza updated\onlinesms\onlinesms\bin\System.Web.Webpages.dll
+C:\Users\DELL 6540\Desktop\Semester 2 Project Hamza updated\onlinesms\onlinesms\bin\System.Web.Webpages.Razor.dll
+C:\Users\DELL 6540\Desktop\Semester 2 Project Hamza updated\onlinesms\onlinesms\bin\EntityFramework.xml
+C:\Users\DELL 6540\Desktop\Semester 2 Project Hamza updated\onlinesms\onlinesms\bin\EntityFramework.SqlServer.xml
+C:\Users\DELL 6540\Desktop\Semester 2 Project Hamza updated\onlinesms\onlinesms\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\DELL 6540\Desktop\Semester 2 Project Hamza updated\onlinesms\onlinesms\bin\System.Web.Razor.xml
+C:\Users\DELL 6540\Desktop\Semester 2 Project Hamza updated\onlinesms\onlinesms\bin\System.Web.Webpages.xml
+C:\Users\DELL 6540\Desktop\Semester 2 Project Hamza updated\onlinesms\onlinesms\bin\System.Web.Webpages.Deployment.xml
+C:\Users\DELL 6540\Desktop\Semester 2 Project Hamza updated\onlinesms\onlinesms\bin\System.Web.Webpages.Razor.xml
+C:\Users\DELL 6540\Desktop\Semester 2 Project Hamza updated\onlinesms\onlinesms\bin\System.Web.Helpers.xml
+C:\Users\DELL 6540\Desktop\Semester 2 Project Hamza updated\onlinesms\onlinesms\bin\System.Web.Mvc.xml
+C:\Users\DELL 6540\Desktop\Semester 2 Project Hamza updated\onlinesms\onlinesms\obj\Debug\onlinesms.csproj.AssemblyReference.cache
+C:\Users\DELL 6540\Desktop\Semester 2 Project Hamza updated\onlinesms\onlinesms\obj\Debug\onlinesms.csproj.CoreCompileInputs.cache
+C:\Users\DELL 6540\Desktop\Semester 2 Project Hamza updated\onlinesms\onlinesms\obj\Debug\onlinesms.csproj.CopyComplete
+C:\Users\DELL 6540\Desktop\Semester 2 Project Hamza updated\onlinesms\onlinesms\obj\Debug\onlinesms.dll
+C:\Users\DELL 6540\Desktop\Semester 2 Project Hamza updated\onlinesms\onlinesms\obj\Debug\onlinesms.pdb
+C:\Users\DELL 6540\Desktop\Online SMS\Eproject\onlinesms\onlinesms\bin\onlinesms.dll.config
+C:\Users\DELL 6540\Desktop\Online SMS\Eproject\onlinesms\onlinesms\bin\onlinesms.dll
+C:\Users\DELL 6540\Desktop\Online SMS\Eproject\onlinesms\onlinesms\bin\onlinesms.pdb
+C:\Users\DELL 6540\Desktop\Online SMS\Eproject\onlinesms\onlinesms\bin\EntityFramework.dll
+C:\Users\DELL 6540\Desktop\Online SMS\Eproject\onlinesms\onlinesms\bin\EntityFramework.SqlServer.dll
+C:\Users\DELL 6540\Desktop\Online SMS\Eproject\onlinesms\onlinesms\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\DELL 6540\Desktop\Online SMS\Eproject\onlinesms\onlinesms\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\DELL 6540\Desktop\Online SMS\Eproject\onlinesms\onlinesms\bin\System.Web.Helpers.dll
+C:\Users\DELL 6540\Desktop\Online SMS\Eproject\onlinesms\onlinesms\bin\System.Web.Mvc.dll
+C:\Users\DELL 6540\Desktop\Online SMS\Eproject\onlinesms\onlinesms\bin\System.Web.Razor.dll
+C:\Users\DELL 6540\Desktop\Online SMS\Eproject\onlinesms\onlinesms\bin\System.Web.Webpages.Deployment.dll
+C:\Users\DELL 6540\Desktop\Online SMS\Eproject\onlinesms\onlinesms\bin\System.Web.Webpages.dll
+C:\Users\DELL 6540\Desktop\Online SMS\Eproject\onlinesms\onlinesms\bin\System.Web.Webpages.Razor.dll
+C:\Users\DELL 6540\Desktop\Online SMS\Eproject\onlinesms\onlinesms\bin\EntityFramework.xml
+C:\Users\DELL 6540\Desktop\Online SMS\Eproject\onlinesms\onlinesms\bin\EntityFramework.SqlServer.xml
+C:\Users\DELL 6540\Desktop\Online SMS\Eproject\onlinesms\onlinesms\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\DELL 6540\Desktop\Online SMS\Eproject\onlinesms\onlinesms\bin\System.Web.Razor.xml
+C:\Users\DELL 6540\Desktop\Online SMS\Eproject\onlinesms\onlinesms\bin\System.Web.Webpages.xml
+C:\Users\DELL 6540\Desktop\Online SMS\Eproject\onlinesms\onlinesms\bin\System.Web.Webpages.Deployment.xml
+C:\Users\DELL 6540\Desktop\Online SMS\Eproject\onlinesms\onlinesms\bin\System.Web.Webpages.Razor.xml
+C:\Users\DELL 6540\Desktop\Online SMS\Eproject\onlinesms\onlinesms\bin\System.Web.Helpers.xml
+C:\Users\DELL 6540\Desktop\Online SMS\Eproject\onlinesms\onlinesms\bin\System.Web.Mvc.xml
+C:\Users\DELL 6540\Desktop\Online SMS\Eproject\onlinesms\onlinesms\obj\Debug\onlinesms.csproj.AssemblyReference.cache
+C:\Users\DELL 6540\Desktop\Online SMS\Eproject\onlinesms\onlinesms\obj\Debug\onlinesms.csproj.CoreCompileInputs.cache
+C:\Users\DELL 6540\Desktop\Online SMS\Eproject\onlinesms\onlinesms\obj\Debug\onlinesms.csproj.CopyComplete
+C:\Users\DELL 6540\Desktop\Online SMS\Eproject\onlinesms\onlinesms\obj\Debug\onlinesms.dll
+C:\Users\DELL 6540\Desktop\Online SMS\Eproject\onlinesms\onlinesms\obj\Debug\onlinesms.pdb

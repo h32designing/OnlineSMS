@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="OnlineSMSModelStoreContainer" CdmEntityContainer="OnlineSMSEntities1">
+    <EntitySetMapping Name="contacts">
+      <EntityTypeMapping TypeName="OnlineSMSModel.contact">
+        <MappingFragment StoreEntitySet="contact">
+          <ScalarProperty Name="contact_Id" ColumnName="contact_Id" />
+          <ScalarProperty Name="contact_phone" ColumnName="contact_phone" />
+          <ScalarProperty Name="contact_name" ColumnName="contact_name" />
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="counts">
+      <EntityTypeMapping TypeName="OnlineSMSModel.count">
+        <MappingFragment StoreEntitySet="count">
+          <ScalarProperty Name="count_id" ColumnName="count_id" />
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
+          <ScalarProperty Name="user_phone" ColumnName="user_phone" />
+          <ScalarProperty Name="message_count" ColumnName="message_count" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Messages">
+      <EntityTypeMapping TypeName="OnlineSMSModel.Message">
+        <MappingFragment StoreEntitySet="Message">
+          <ScalarProperty Name="message_id" ColumnName="message_id" />
+          <ScalarProperty Name="message_subject" ColumnName="message_subject" />
+          <ScalarProperty Name="message_description" ColumnName="message_description" />
+          <ScalarProperty Name="sender_id" ColumnName="sender_id" />
+          <ScalarProperty Name="sender_name" ColumnName="sender_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="personaldetails">
+      <EntityTypeMapping TypeName="OnlineSMSModel.personaldetail">
+        <MappingFragment StoreEntitySet="personaldetails">
+          <ScalarProperty Name="persdetail_id" ColumnName="persdetail_id" />
+          <ScalarProperty Name="per_name" ColumnName="per_name" />
+          <ScalarProperty Name="per_gender" ColumnName="per_gender" />
+          <ScalarProperty Name="per_dob" ColumnName="per_dob" />
+          <ScalarProperty Name="per_address" ColumnName="per_address" />
+          <ScalarProperty Name="per_martialstatus" ColumnName="per_martialstatus" />
+          <ScalarProperty Name="per_email" ColumnName="per_email" />
+          <ScalarProperty Name="per_hobbies" ColumnName="per_hobbies" />
+          <ScalarProperty Name="per_likes" ColumnName="per_likes" />
+          <ScalarProperty Name="per_dislikes" ColumnName="per_dislikes" />
+          <ScalarProperty Name="per_sport" ColumnName="per_sport" />
+          <ScalarProperty Name="per_image" ColumnName="per_image" />
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="professionaldetails">
+      <EntityTypeMapping TypeName="OnlineSMSModel.professionaldetail">
+        <MappingFragment StoreEntitySet="professionaldetail">
+          <ScalarProperty Name="prof_id" ColumnName="prof_id" />
+          <ScalarProperty Name="prof_qualification" ColumnName="prof_qualification" />
+          <ScalarProperty Name="prof_school" ColumnName="prof_school" />
+          <ScalarProperty Name="prof_college" ColumnName="prof_college" />
+          <ScalarProperty Name="prof_status" ColumnName="prof_status" />
+          <ScalarProperty Name="prof_organiztion" ColumnName="prof_organiztion" />
+          <ScalarProperty Name="prof_designation" ColumnName="prof_designation" />
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="users">
+      <EntityTypeMapping TypeName="OnlineSMSModel.user">
+        <MappingFragment StoreEntitySet="user">
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="u_id" ColumnName="u_id" />
+          <ScalarProperty Name="u_name" ColumnName="u_name" />
+          <ScalarProperty Name="u_phone" ColumnName="u_phone" />
+          <ScalarProperty Name="u_email" ColumnName="u_email" />
+          <ScalarProperty Name="u_address" ColumnName="u_address" />
+          <ScalarProperty Name="login_id" ColumnName="login_id" />
+          <ScalarProperty Name="login_pass" ColumnName="login_pass" />
+          <ScalarProperty Name="userrole_id" ColumnName="userrole_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="freinds">
+      <EntityTypeMapping TypeName="OnlineSMSModel.freind">
+        <MappingFragment StoreEntitySet="freinds">
+          <ScalarProperty Name="friend_id" ColumnName="friend_id" />
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

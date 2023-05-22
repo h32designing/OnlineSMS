@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="OnlineSMSModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="contact">
+    <Key>
+      <PropertyRef Name="contact_Id" />
+    </Key>
+    <Property Name="contact_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="contact_phone" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="contact_name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="user_id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="user" Relationship="Self.FK__contact__user_id__45F365D3" FromRole="contact" ToRole="user" />
+    <NavigationProperty Name="freinds" Relationship="OnlineSMSModel.FK__freinds__friend___1AD3FDA4" FromRole="contact" ToRole="freind" />
+    <NavigationProperty Name="freinds1" Relationship="OnlineSMSModel.FK__freinds__user_id__19DFD96B" FromRole="contact" ToRole="freind" />
+  </EntityType>
+  <EntityType Name="count">
+    <Key>
+      <PropertyRef Name="count_id" />
+    </Key>
+    <Property Name="count_id" Type="Int32" Nullable="false" />
+    <Property Name="user_id" Type="Int32" Nullable="false" />
+    <Property Name="user_phone" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="message_count" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="user" Relationship="Self.FK__count__user_id__4316F928" FromRole="count" ToRole="user" />
+  </EntityType>
+  <EntityType Name="Message">
+    <Key>
+      <PropertyRef Name="message_id" />
+    </Key>
+    <Property Name="message_id" Type="Int32" Nullable="false" />
+    <Property Name="message_subject" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="message_description" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="sender_id" Type="Int32" Nullable="false" />
+    <Property Name="sender_name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="user" Relationship="Self.FK__Message__sender___48CFD27E" FromRole="Message" ToRole="user" />
+  </EntityType>
+  <EntityType Name="personaldetail">
+    <Key>
+      <PropertyRef Name="persdetail_id" />
+    </Key>
+    <Property Name="persdetail_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="per_name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="per_gender" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="per_dob" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="per_address" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="per_martialstatus" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="per_email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="per_hobbies" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="per_likes" Type="Int32" Nullable="false" />
+    <Property Name="per_dislikes" Type="Int32" Nullable="false" />
+    <Property Name="per_sport" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="per_image" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="user_id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="user" Relationship="Self.FK__personald__user___5CD6CB2B" FromRole="personaldetails" ToRole="user" />
+  </EntityType>
+  <EntityType Name="professionaldetail">
+    <Key>
+      <PropertyRef Name="prof_id" />
+    </Key>
+    <Property Name="prof_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="prof_qualification" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="prof_school" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="prof_college" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="prof_status" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="prof_organiztion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="prof_designation" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="user_id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="user" Relationship="Self.FK__professio__user___5FB337D6" FromRole="professionaldetail" ToRole="user" />
+  </EntityType>
+  <EntityType Name="user">
+    <Key>
+      <PropertyRef Name="u_id" />
+    </Key>
+    <Property Name="u_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="u_name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="u_phone" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="u_email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="u_address" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="login_id" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="login_pass" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="userrole_id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="contacts" Relationship="Self.FK__contact__user_id__45F365D3" FromRole="user" ToRole="contact" />
+    <NavigationProperty Name="counts" Relationship="Self.FK__count__user_id__4316F928" FromRole="user" ToRole="count" />
+    <NavigationProperty Name="Messages" Relationship="Self.FK__Message__sender___48CFD27E" FromRole="user" ToRole="Message" />
+    <NavigationProperty Name="personaldetails" Relationship="Self.FK__personald__user___5CD6CB2B" FromRole="user" ToRole="personaldetails" />
+    <NavigationProperty Name="professionaldetails" Relationship="Self.FK__professio__user___5FB337D6" FromRole="user" ToRole="professionaldetail" />
+    <Property Name="status" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <Association Name="FK__contact__user_id__45F365D3">
+    <End Role="user" Type="Self.user" Multiplicity="1" />
+    <End Role="contact" Type="Self.contact" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="user">
+        <PropertyRef Name="u_id" />
+      </Principal>
+      <Dependent Role="contact">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__count__user_id__4316F928">
+    <End Role="user" Type="Self.user" Multiplicity="1" />
+    <End Role="count" Type="Self.count" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="user">
+        <PropertyRef Name="u_id" />
+      </Principal>
+      <Dependent Role="count">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Message__sender___48CFD27E">
+    <End Role="user" Type="Self.user" Multiplicity="1" />
+    <End Role="Message" Type="Self.Message" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="user">
+        <PropertyRef Name="u_id" />
+      </Principal>
+      <Dependent Role="Message">
+        <PropertyRef Name="sender_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__personald__user___5CD6CB2B">
+    <End Role="user" Type="Self.user" Multiplicity="1" />
+    <End Role="personaldetails" Type="Self.personaldetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="user">
+        <PropertyRef Name="u_id" />
+      </Principal>
+      <Dependent Role="personaldetails">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__professio__user___5FB337D6">
+    <End Role="user" Type="Self.user" Multiplicity="1" />
+    <End Role="professionaldetail" Type="Self.professionaldetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="user">
+        <PropertyRef Name="u_id" />
+      </Principal>
+      <Dependent Role="professionaldetail">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="OnlineSMSEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="contacts" EntityType="Self.contact" />
+    <EntitySet Name="counts" EntityType="Self.count" />
+    <EntitySet Name="Messages" EntityType="Self.Message" />
+    <EntitySet Name="personaldetails" EntityType="Self.personaldetail" />
+    <EntitySet Name="professionaldetails" EntityType="Self.professionaldetail" />
+    <EntitySet Name="users" EntityType="Self.user" />
+    <AssociationSet Name="FK__contact__user_id__45F365D3" Association="Self.FK__contact__user_id__45F365D3">
+      <End Role="user" EntitySet="users" />
+      <End Role="contact" EntitySet="contacts" />
+    </AssociationSet>
+    <AssociationSet Name="FK__count__user_id__4316F928" Association="Self.FK__count__user_id__4316F928">
+      <End Role="user" EntitySet="users" />
+      <End Role="count" EntitySet="counts" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Message__sender___48CFD27E" Association="Self.FK__Message__sender___48CFD27E">
+      <End Role="user" EntitySet="users" />
+      <End Role="Message" EntitySet="Messages" />
+    </AssociationSet>
+    <AssociationSet Name="FK__personald__user___5CD6CB2B" Association="Self.FK__personald__user___5CD6CB2B">
+      <End Role="user" EntitySet="users" />
+      <End Role="personaldetails" EntitySet="personaldetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK__professio__user___5FB337D6" Association="Self.FK__professio__user___5FB337D6">
+      <End Role="user" EntitySet="users" />
+      <End Role="professionaldetail" EntitySet="professionaldetails" />
+    </AssociationSet>
+    <EntitySet Name="freinds" EntityType="OnlineSMSModel.freind" />
+    <AssociationSet Name="FK__freinds__friend___1AD3FDA4" Association="OnlineSMSModel.FK__freinds__friend___1AD3FDA4">
+      <End Role="contact" EntitySet="contacts" />
+      <End Role="freind" EntitySet="freinds" />
+    </AssociationSet>
+    <AssociationSet Name="FK__freinds__user_id__19DFD96B" Association="OnlineSMSModel.FK__freinds__user_id__19DFD96B">
+      <End Role="contact" EntitySet="contacts" />
+      <End Role="freind" EntitySet="freinds" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="freind">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="user_id" Type="Int32" />
+    <Property Name="friend_id" Type="Int32" />
+    <NavigationProperty Name="contact" Relationship="OnlineSMSModel.FK__freinds__friend___1AD3FDA4" FromRole="freind" ToRole="contact" />
+    <NavigationProperty Name="contact1" Relationship="OnlineSMSModel.FK__freinds__user_id__19DFD96B" FromRole="freind" ToRole="contact" />
+  </EntityType>
+  <Association Name="FK__freinds__friend___1AD3FDA4">
+    <End Type="OnlineSMSModel.contact" Role="contact" Multiplicity="0..1" />
+    <End Type="OnlineSMSModel.freind" Role="freind" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="contact">
+        <PropertyRef Name="contact_Id" />
+      </Principal>
+      <Dependent Role="freind">
+        <PropertyRef Name="friend_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__freinds__user_id__19DFD96B">
+    <End Type="OnlineSMSModel.contact" Role="contact" Multiplicity="0..1" />
+    <End Type="OnlineSMSModel.freind" Role="freind" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="contact">
+        <PropertyRef Name="contact_Id" />
+      </Principal>
+      <Dependent Role="freind">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

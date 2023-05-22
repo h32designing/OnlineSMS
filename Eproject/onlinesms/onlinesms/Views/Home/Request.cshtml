@@ -1,0 +1,105 @@
+﻿@model IEnumerable<onlinesms.Models.user>
+
+@{
+    ViewBag.Title = "Request";
+    Layout = "~/Views/Shared/_Layoutadmindashboard.cshtml";
+}
+
+<section class="home">
+    <div class="text"> User Dashboard </div>
+
+
+    <div class="clearfix"></div>
+    <br />
+    <div class="col-div-12">
+        <div class="box-8">
+            <div class="content-box">
+                <br />
+                <table>
+                    <tr>
+                        <th>User Namme</th>
+                        <th>Phone</th>
+                        <th>Address</th>
+                        <th>Email</th>
+                        <th>Login Id</th>
+                        <th colspan="2" style="text-align:center">Actions</th>
+
+                    </tr>
+                    @foreach (var item in Model)
+                    {
+                        if (item.status == "Pending")
+                        {
+                            <tr>
+                                <td>@item.u_name</td>
+                                <td>@item.u_phone</td>
+                                <td>@item.u_address</td>
+                                <td>@item.u_email</td>
+                                <td>@item.login_id</td>
+                                <td>@Html.ActionLink("Accept", "accept", "Home", new { id = @item.u_id }, null)</td>
+                                <td>@Html.ActionLink("Reject", "reject", "Home", new { id = @item.u_id }, null)</td>
+                            </tr>
+                        }
+                    }
+
+
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="clearfix"></div>
+    <div class="clearfix"></div>
+    <br />
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</section>
+
+<script>
+    const body = document.querySelector('body'),
+        sidebar = body.querySelector('nav'),
+        toggle = body.querySelector(".toggle"),
+        searchBtn = body.querySelector(".search-box"),
+        modeSwitch = body.querySelector(".toggle-switch"),
+        modeText = body.querySelector(".mode-text");
+
+
+    toggle.addEventListener("click", () => {
+        sidebar.classList.toggle("close");
+    })
+
+    searchBtn.addEventListener("click", () => {
+        sidebar.classList.remove("close");
+    })
+        >
+        modeSwitch.addEventListener("click", () => {
+            body.classList.toggle("dark");
+
+            if (body.classList.contains("dark")) {
+                modeText.innerText = "Light mode";
+            } else {
+                modeText.innerText = "Dark mode";
+
+            }
+        });
+
+</script>
+<script>
+    $(document).ready(function () {
+        $(".profile p").click(function () {
+            $(".profile-div").toggle();
+
+        });
+        $(".noti-icon").click(function () {
+            $(".notification-div").toggle();
+        });
+
+
+
+
+    });
+</script>
+

@@ -1,0 +1,91 @@
+﻿
+@{
+    ViewBag.Title = "About";
+}
+
+    <!-- =============Hero Area============= -->
+    <section class="hero-area bg_img" data-background="/assets/images/page-header.jpg">
+        <div class="container">
+            <h1 class="title m-0">about company</h1>
+        </div>
+    </section>
+    <div class="breadcrumb-section">
+        <div class="container">
+            <ul class="breadcrumb">
+                <li>
+					<a href="@Url.Action("Index","Home")">Home</a>
+                </li>
+                <li>
+                    About
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- =============Hero Area============= -->
+    <!--=================Bulk Sms================= -->
+    <section class="bulk-sms padding-top padding-bottom">
+        <div class="container">
+            <div class="row flex-wrap-reverse align-items-center">
+                <div class="col-lg-6">
+					<div class="bulk-content text-center text-sm-left">
+						<span>welcome</span>
+						<h2 class="title">Online SMS Service</h2>
+						<p>Online SMS marketing is a way of communicating with a wide range of customers using mobile technology. With our SMS marketing service, your business is able to contact thousands of potential customers in Australia and around the world with special offerings and discount pricing, delivering your message right to their back pocket.</p>
+						@Html.ActionLink("Check Services", "Services", "Home", new { @class = "custom-button active" })
+					</div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="bulk-thumb">
+                        <img src="~/assets/images/bulk/bulk01.png" alt="bulk">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=================Bulk Sms================= -->
+    <!--=================Our Service================= -->
+    <section class="service-section padding-bottom padding-top">
+        <div class="container">
+            <div class="section-header">
+                <span class="cate">sms type</span>
+                <h2 class="title">Types of SMS You Can Send</h2>
+            </div>
+            <div class="row justify-content-center mb-30-none">
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-item text-center">
+                        <div class="service-thumb">
+                            <i class="flaticon-megaphone"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4 class="title">promotional SMS</h4>
+							<p>Promotional SMS is when a business sends their customers unique SMS messages for marketing or advertising purposes.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-item text-center">
+                        <div class="service-thumb">
+                            <i class="flaticon-bell"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4 class="title">SMS Notification</h4>
+							<p>SMS Notifications are out-of-band text messages sent in response to events or transactions which occur somewhere else.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-item text-center">
+                        <div class="service-thumb">
+                            <i class="flaticon-clock"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4 class="title">SMS alert</h4>
+							<p>Messages sent automatically to subscribers who have indicated they wish to receive text messages from a business.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=================Our Service================= -->
+    

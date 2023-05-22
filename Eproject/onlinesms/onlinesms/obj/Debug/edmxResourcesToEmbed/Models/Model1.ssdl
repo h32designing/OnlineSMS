@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="OnlineSMSModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="contact">
+    <Key>
+      <PropertyRef Name="contact_Id" />
+    </Key>
+    <Property Name="contact_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="contact_phone" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="contact_name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="user_id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="count">
+    <Key>
+      <PropertyRef Name="count_id" />
+    </Key>
+    <Property Name="count_id" Type="int" Nullable="false" />
+    <Property Name="user_id" Type="int" Nullable="false" />
+    <Property Name="user_phone" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="message_count" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="freinds">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="user_id" Type="int" />
+    <Property Name="friend_id" Type="int" />
+  </EntityType>
+  <EntityType Name="Message">
+    <Key>
+      <PropertyRef Name="message_id" />
+    </Key>
+    <Property Name="message_id" Type="int" Nullable="false" />
+    <Property Name="message_subject" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="message_description" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="sender_id" Type="int" Nullable="false" />
+    <Property Name="sender_name" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="personaldetails">
+    <Key>
+      <PropertyRef Name="persdetail_id" />
+    </Key>
+    <Property Name="persdetail_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="per_name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="per_gender" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="per_dob" Type="date" Nullable="false" />
+    <Property Name="per_address" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="per_martialstatus" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="per_email" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="per_hobbies" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="per_likes" Type="int" Nullable="false" />
+    <Property Name="per_dislikes" Type="int" Nullable="false" />
+    <Property Name="per_sport" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="per_image" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="user_id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="professionaldetail">
+    <Key>
+      <PropertyRef Name="prof_id" />
+    </Key>
+    <Property Name="prof_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="prof_qualification" Type="varchar" MaxLength="50" />
+    <Property Name="prof_school" Type="varchar" MaxLength="50" />
+    <Property Name="prof_college" Type="varchar" MaxLength="50" />
+    <Property Name="prof_status" Type="varchar" MaxLength="50" />
+    <Property Name="prof_organiztion" Type="varchar" MaxLength="50" />
+    <Property Name="prof_designation" Type="varchar" MaxLength="50" />
+    <Property Name="user_id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="user">
+    <Key>
+      <PropertyRef Name="u_id" />
+    </Key>
+    <Property Name="u_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="u_name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="u_phone" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="u_email" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="u_address" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="login_id" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="login_pass" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="userrole_id" Type="int" Nullable="false" />
+    <Property Name="status" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK__contact__user_id__45F365D3">
+    <End Role="user" Type="Self.user" Multiplicity="1" />
+    <End Role="contact" Type="Self.contact" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="user">
+        <PropertyRef Name="u_id" />
+      </Principal>
+      <Dependent Role="contact">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__count__user_id__4316F928">
+    <End Role="user" Type="Self.user" Multiplicity="1" />
+    <End Role="count" Type="Self.count" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="user">
+        <PropertyRef Name="u_id" />
+      </Principal>
+      <Dependent Role="count">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__freinds__friend___1EA48E88">
+    <End Role="contact" Type="Self.contact" Multiplicity="0..1" />
+    <End Role="freinds" Type="Self.freinds" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="contact">
+        <PropertyRef Name="contact_Id" />
+      </Principal>
+      <Dependent Role="freinds">
+        <PropertyRef Name="friend_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__freinds__user_id__1DB06A4F">
+    <End Role="contact" Type="Self.contact" Multiplicity="0..1" />
+    <End Role="freinds" Type="Self.freinds" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="contact">
+        <PropertyRef Name="contact_Id" />
+      </Principal>
+      <Dependent Role="freinds">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Message__sender___48CFD27E">
+    <End Role="user" Type="Self.user" Multiplicity="1" />
+    <End Role="Message" Type="Self.Message" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="user">
+        <PropertyRef Name="u_id" />
+      </Principal>
+      <Dependent Role="Message">
+        <PropertyRef Name="sender_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__personald__user___5CD6CB2B">
+    <End Role="user" Type="Self.user" Multiplicity="1" />
+    <End Role="personaldetails" Type="Self.personaldetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="user">
+        <PropertyRef Name="u_id" />
+      </Principal>
+      <Dependent Role="personaldetails">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__professio__user___5FB337D6">
+    <End Role="user" Type="Self.user" Multiplicity="1" />
+    <End Role="professionaldetail" Type="Self.professionaldetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="user">
+        <PropertyRef Name="u_id" />
+      </Principal>
+      <Dependent Role="professionaldetail">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="OnlineSMSModelStoreContainer">
+    <EntitySet Name="contact" EntityType="Self.contact" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="count" EntityType="Self.count" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="freinds" EntityType="Self.freinds" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Message" EntityType="Self.Message" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="personaldetails" EntityType="Self.personaldetails" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="professionaldetail" EntityType="Self.professionaldetail" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="user" EntityType="Self.user" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__contact__user_id__45F365D3" Association="Self.FK__contact__user_id__45F365D3">
+      <End Role="user" EntitySet="user" />
+      <End Role="contact" EntitySet="contact" />
+    </AssociationSet>
+    <AssociationSet Name="FK__count__user_id__4316F928" Association="Self.FK__count__user_id__4316F928">
+      <End Role="user" EntitySet="user" />
+      <End Role="count" EntitySet="count" />
+    </AssociationSet>
+    <AssociationSet Name="FK__freinds__friend___1EA48E88" Association="Self.FK__freinds__friend___1EA48E88">
+      <End Role="contact" EntitySet="contact" />
+      <End Role="freinds" EntitySet="freinds" />
+    </AssociationSet>
+    <AssociationSet Name="FK__freinds__user_id__1DB06A4F" Association="Self.FK__freinds__user_id__1DB06A4F">
+      <End Role="contact" EntitySet="contact" />
+      <End Role="freinds" EntitySet="freinds" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Message__sender___48CFD27E" Association="Self.FK__Message__sender___48CFD27E">
+      <End Role="user" EntitySet="user" />
+      <End Role="Message" EntitySet="Message" />
+    </AssociationSet>
+    <AssociationSet Name="FK__personald__user___5CD6CB2B" Association="Self.FK__personald__user___5CD6CB2B">
+      <End Role="user" EntitySet="user" />
+      <End Role="personaldetails" EntitySet="personaldetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK__professio__user___5FB337D6" Association="Self.FK__professio__user___5FB337D6">
+      <End Role="user" EntitySet="user" />
+      <End Role="professionaldetail" EntitySet="professionaldetail" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

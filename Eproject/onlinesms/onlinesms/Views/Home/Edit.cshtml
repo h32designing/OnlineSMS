@@ -1,0 +1,34 @@
+﻿@model onlinesms.Models.user
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Edit</h2>
+
+@using (Html.BeginForm("Edit", "Home", FormMethod.Post))
+{
+    @Html.Label("Enter User Full Name")
+    @Html.TextBoxFor(a => a.u_name, null, new { @class = "form-control" })
+    <br />
+
+    @Html.Label("Enter User Phone No")
+    @Html.TextBoxFor(a => a.u_phone, null, new { @class = "form-control" })
+    <br />
+
+    @Html.Label("Enter User Address")
+    @Html.TextBoxFor(a => a.u_address, null, new { @class = "form-control" })
+    <br />
+
+    @Html.Label("Enter User Email")
+    @Html.TextBoxFor(a => a.u_email, null, new { @class = "form-control" })
+    <br />
+
+    @Html.Label("Enter User LoginID")
+    @Html.TextBoxFor(a => a.login_id, null, new { @class = "form-control" })
+    <br />
+    <br />
+    <input type="submit" value="Save Changes" class="btn btn-danger" />
+
+}
